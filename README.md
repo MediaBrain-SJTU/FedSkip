@@ -7,7 +7,7 @@ This is the code for paper(ICDM22 Regular Paper) [FedSkip: Combatting Statistica
 * scikit-learn >= 0.23.1
 
 ## Data Preparing
-Cifar-10 and Cifar100 will be automatically downloaded in your datadir while for femnist, shakespeare and synthetic, you should refer to LEAF or download our split version and unzip in the datadir/. 
+Cifar-10 and Cifar100 will be automatically downloaded in your datadir while for femnist, shakespeare and synthetic, you should refer to [LEAF](https://github.com/TalwalkarLab/leaf) or download our split version and unzip in the datadir/. 
 Using LEAF to repeat our split, please refer:
 1) generate a small-sized dataset of FEMNIST and full-sized datasets of SYNTHETIC and SHAKESPEARE with help of LEAF
 2) remove clients with less than 64 training samples~(batch size of local training).
@@ -15,7 +15,7 @@ Using LEAF to repeat our split, please refer:
 ## Model Structure
 For Cifar10, Cifar100, Femnist, we use the same model structure as MOON(https://github.com/QinbinLi/MOON).
 
-For SHAKESPEARE, we adopt two-layer LSTM classifier containing 100 hidden units with an 8D embedding layer according to FedProx(https://github.com/litian96/FedProx) and LEAF(https://github.com/TalwalkarLab/leaf).
+For SHAKESPEARE, we adopt two-layer LSTM classifier containing 100 hidden units with an 8D embedding layer according to [FedProx](https://github.com/litian96/FedProx) and [LEAF](https://github.com/TalwalkarLab/leaf).
 
 The model of SYNTHETIC is the same as LEAF: a perceptron with sigmoid activations
 ## Parameters
