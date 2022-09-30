@@ -13,7 +13,7 @@ Using LEAF to repeat our split, please refer:
 2) remove clients with less than 64 training samples(batch size of local training).
 
 ## Model Structure
-For Cifar10, Cifar100, Femnist, we use the same model structure as MOON(https://github.com/QinbinLi/MOON).
+For Cifar10, Cifar100, Femnist, we use the same model structure as [MOON](https://github.com/QinbinLi/MOON).
 
 For SHAKESPEARE, we adopt two-layer LSTM classifier containing 100 hidden units with an 8D embedding layer according to [FedProx](https://github.com/litian96/FedProx) and [LEAF](https://github.com/TalwalkarLab/leaf).
 
