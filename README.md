@@ -55,7 +55,7 @@ python main.py --dataset=cifar10 \
 ## Acknowledgement
 We borrow some codes from [MOON](https://github.com/QinbinLi/MOON), [LEAF](https://github.com/TalwalkarLab/leaf) and [FedProx](https://github.com/litian96/FedProx)
 ## Attention
-
+Here we provide code of FedSkip for cifar10 and cifar100. Other datasets and methods will be updated soon.
 ## Contact
 
 If you have any problem with this code, please feel free to contact **zqfan_knight@sjtu.edu.cn**.
