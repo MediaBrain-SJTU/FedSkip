@@ -10,7 +10,7 @@ This is the code for paper(ICDM22 Regular Paper) [FedSkip: Combatting Statistica
 Cifar-10 and Cifar100 will be automatically downloaded in your datadir while for femnist, shakespeare and synthetic, you should refer to [LEAF](https://github.com/TalwalkarLab/leaf) or download our split version and unzip in the datadir/. 
 Using LEAF to repeat our split, please refer:
 1) generate a small-sized dataset of FEMNIST and full-sized datasets of SYNTHETIC and SHAKESPEARE with help of LEAF
-2) remove clients with less than 64 training samples~(batch size of local training).
+2) remove clients with less than 64 training samples(batch size of local training).
 
 ## Model Structure
 For Cifar10, Cifar100, Femnist, we use the same model structure as MOON(https://github.com/QinbinLi/MOON).
