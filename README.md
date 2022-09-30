@@ -53,7 +53,7 @@ python main.py --dataset=cifar10 \
     --datadir='./data/' \
 ```
 ## Acknowledgement
-We borrow some codes from [MOON](https://github.com/QinbinLi/MOON), [LEAF](https://github.com/TalwalkarLab/leaf) and [FedProx]([https://github.com/QinbinLi/MOON](https://github.com/litian96/FedProx))
+We borrow some codes from [MOON](https://github.com/QinbinLi/MOON), [LEAF](https://github.com/TalwalkarLab/leaf) and [FedProx](https://github.com/litian96/FedProx)
 
 ## Contact
 
